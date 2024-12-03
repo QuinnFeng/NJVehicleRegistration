@@ -1,0 +1,102 @@
+.container {
+  position: relative;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.15rem;
+}
+
+#id {
+  position: absolute;
+  top: 8.4rem;
+  left: 10.4rem;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  -webkit-text-stroke: 0.5px white;
+}
+
+#address {
+  position: absolute;
+  top: 35rem;
+  left: 15rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+#address span {
+  letter-spacing: 1px;
+}
+#info-box {
+  position: absolute;
+  width: 45.3rem;
+  height: 21.8rem;
+  left: 60rem;
+  top: 21rem;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.code p {
+  margin: 5px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.code img {
+  width: 28rem;
+  height: 2.5rem;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-right: 1.5rem;
+}
+
+.middle pre {
+  margin: 12px;
+  margin-left: 4rem;
+  line-height: 0px;
+  font-family: "Noto Serif", serif;
+}
+
+.vehicle-info {
+  font-weight: 600;
+  display: flex;
+  gap: 16px;
+  padding-left: 4rem;
+  margin: 0;
+}
+
+.bottom {
+  display: flex;
+  justify-content: start;
+  gap: 40px;
+  padding-left: 78px;
+}
+
+.address2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.dl {
+  display: flex;
+  flex-direction: column;
+}
